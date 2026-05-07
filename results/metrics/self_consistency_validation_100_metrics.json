@@ -1,0 +1,35 @@
+{
+  "method": "Self-Consistency",
+  "n_examples": 100,
+  "json_valid_rate": 0.8166666666666665,
+  "schema_repair_rate": 0.2533333333333333,
+  "defer_rate": 0.33,
+  "coverage": 0.67,
+  "avg_latency_ms": 14805.561423301697,
+  "avg_tokens_per_sec": 11.804325256700968,
+  "avg_generated_or_scored_tokens": 174.73,
+  "auroc_all": 0.7898434363709355,
+  "auprc_all": 0.7723531216444239,
+  "non_deferred_examples": 67,
+  "accuracy_non_deferred": 0.8507462686567164,
+  "f1_toxic_non_deferred": 0.875,
+  "risk_non_deferred": 0.14925373134328357,
+  "fpr_non_deferred": 0.21428571428571427,
+  "fnr_non_deferred": 0.10256410256410256,
+  "confusion_matrix_labels": [
+    "NON_TOXIC",
+    "TOXIC"
+  ],
+  "confusion_matrix": [
+    [
+      22,
+      6
+    ],
+    [
+      4,
+      35
+    ]
+  ],
+  "n_samples": 3,
+  "agreement_threshold": 0.67
+}

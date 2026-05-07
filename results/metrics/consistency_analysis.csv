@@ -1,0 +1,4 @@
+method,consistency_type,n_examples,agreement_score,additional_metric,interpretation
+Direct Generation,prompt sensitivity,20,0.95,0.75,Agreement between original prompt and lightly reworded prompt; additional metric is JSON validity rate for prompt variant.
+Self-Consistency,seed sensitivity,20,0.9,0.9416666666666667,Label agreement between two random seeds; additional metric is mean vote agreement.
+Self-Consistency,defer-rate seed sensitivity,20,0.8999999999999999,0.10000000000000003,Stability of DEFER rate across seeds; additional metric is absolute defer-rate difference.

@@ -1,0 +1,33 @@
+{
+  "method": "Log-likelihood Scoring A/B/C",
+  "n_examples": 100,
+  "json_valid_rate": 1.0,
+  "schema_repair_rate": 0.0,
+  "defer_rate": 0.3,
+  "coverage": 0.7,
+  "avg_latency_ms": 437.29352474212646,
+  "avg_tokens_per_sec": 7.095046267970625,
+  "avg_generated_or_scored_tokens": 3.0,
+  "auroc_all": 0.8362103572862304,
+  "auprc_all": 0.8354071374370231,
+  "non_deferred_examples": 70,
+  "accuracy_non_deferred": 0.7571428571428571,
+  "f1_toxic_non_deferred": 0.8247422680412371,
+  "risk_non_deferred": 0.24285714285714288,
+  "fpr_non_deferred": 0.5,
+  "fnr_non_deferred": 0.09090909090909091,
+  "confusion_matrix_labels": [
+    "NON_TOXIC",
+    "TOXIC"
+  ],
+  "confusion_matrix": [
+    [
+      13,
+      13
+    ],
+    [
+      4,
+      40
+    ]
+  ]
+}

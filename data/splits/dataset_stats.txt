@@ -1,0 +1,24 @@
+
+Dataset: Civil Comments
+Seed: 42
+Total sample size: 5000
+
+Full sample:
+true_label
+TOXIC        2500
+NON_TOXIC    2500
+
+Validation split:
+true_label
+TOXIC        500
+NON_TOXIC    500
+
+Test split:
+true_label
+NON_TOXIC    2000
+TOXIC        2000
+
+Notes:
+- The dataset was used only for evaluation and threshold/DEFER policy selection.
+- No fine-tuning or training was performed.
+- A balanced subset was used for fair comparison between decision mechanisms.

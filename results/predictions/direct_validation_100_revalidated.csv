@@ -1,0 +1,771 @@
+id,text,toxicity_score,true_label,raw_output,pred_label,category,confidence,short_rationale,json_valid,validator_error,schema_repaired,latency_ms,generated_tokens,tokens_per_sec
+0,"Spencer is just a white version of BLM, our black supremacist organization receiving public  funding.",0.5,TOXIC,"```json
+{
+  ""label"": ""hate"",
+  ""category"": ""hate"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text promotes a racist and hateful ideology.""
+}
+```",TOXIC,hate,0.95,The text promotes a racist and hateful ideology.,True,Schema repaired,True,6077.81457901001,54,8.884772527692979
+1,"Yes, but the point is this is not natural.",0.0,NON_TOXIC,"{
+  ""label"": ""NON_TOXIC"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is neutral and does not contain harmful language.""
+}",NON_TOXIC,none,0.95,The text is neutral and does not contain harmful language.,True,,False,9442.944049835205,53,5.612656362284063
+2,I don't know anything about Clark or BC politics but I do know Americans.  Her position is spot on.  Americans will respect her for it and a better deal on softwood lumber will come of it.,0.0,NON_TOXIC,"```json
+{
+  ""label"": ""NON_TOXIC"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text expresses a positive opinion about a political figure and discusses a potential economic benefit, but does not contain any harmful language.""
+}
+```",NON_TOXIC,none,0.95,"The text expresses a positive opinion about a political figure and discusses a potential economic benefit, but does not contain any harmful language.",True,,False,12005.059003829956,72,5.997471564032292
+3,"MSW is too generous in his ""not authentically Catholic"" proposition... one could argue that Voris and his rabid followers are not authentically human.  Make no mistake about it, what these folks represent is nothing short of Taliban Catholicism.",0.5,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text uses derogatory and inflammatory language to label a group of people as 'rabid followers' and compares them to the Taliban, indicating hate speech.""
+}",TOXIC,hate,0.95,"The text uses derogatory and inflammatory language to label a group of people as 'rabid followers' and compares them to the Taliban, indicating hate speech.",True,,False,12841.801166534424,70,5.450948748717519
+4,"I do not wish death on them, they wish death on themselves. 
+
+I simply want to honor their choices.
+
+First, buy the drugs. A conscious, premeditated choice.
+
+Second, find someplace secluded to do the drugs. A conscious, premeditated choice.
+
+Third, melt the drugs or dissolve them into a solution. A conscious, premeditated choice.
+
+Fourth, fill the syringe with the drugs. A conscious, premeditated choice.
+
+Fifth, find a vein, between the toes to avoid detection or in the elbow. A conscious, premeditated choice.
+
+Sixth, inject the drugs. A conscious, premeditated choice.
+
+That's at least six conscious, well planned, premeditated choices, all designed to inject lethal chemicals into the body.
+
+If they don't give a flying F.... about their life why the heck should anyone else?",0.6000000238418579,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""threat"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text describes a detailed plan for suicide and expresses a desire for harm to others.""
+}",TOXIC,threat,0.95,The text describes a detailed plan for suicide and expresses a desire for harm to others.,True,,False,5954.636812210083,57,9.572372219766711
+5,"Bingo, you hit it on the head.  If completed, our property tax and the sales tax will mirror California just to fund maintenance and staffing of the rail, its cars and the 21 stations.  The majority gets screwed for the minority.",0.6000000238418579,TOXIC,"```json
+{
+  ""label"": ""other"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text discusses property taxes and rail infrastructure, but does not contain explicit insults or threats.""
+}
+```",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: other,False,5818.339586257935,63,10.827831388321982
+6,"Not our job as taxpayers to pay to house others! If the homeless want housing they need a job like the rest of us. Most of them don't want housing, they are homeless by choice. The mess these homeless leave is a crime, not to mention disgusting!",0.6000000238418579,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text expresses strong negative opinions about homeless people and uses derogatory language.""
+}",TOXIC,hate,0.9,The text expresses strong negative opinions about homeless people and uses derogatory language.,True,,False,4128.7336349487305,53,12.836865897903374
+7,At the least do not let them steal it. As for the low income Alaskans how much sense does it make to steal from them in the first place. Thieves are scum... what does that make our legislature?,0.6133333444595337,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text uses derogatory language to label people as 'scum' and expresses a strong negative sentiment towards a group of people.""
+}",TOXIC,hate,0.9,The text uses derogatory language to label people as 'scum' and expresses a strong negative sentiment towards a group of people.,True,,False,4948.847055435181,64,12.932305097145926
+8,Mental issues obviously.  Anger management required for most people.,0.5,TOXIC,"{
+  ""label"": ""other"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text discusses mental health and anger management, but not in a harmful or offensive way.""
+}",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: other,False,12571.750402450562,58,4.613518256669675
+9,No idiot an informed one.,0.7894737124443054,TOXIC,"{
+  ""label"": ""NON_TOXIC"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a neutral statement.""
+}",NON_TOXIC,none,0.95,The text is a neutral statement.,True,,False,4587.528228759766,49,10.681133184710038
+10,"Well the Catholic Church partnered up with Mormons, right Evangelicals and Orthodox and Hasidic Jews (all of which hate Catholicism with a passion) to try and squelch gay marriage in the USA, so it's choice of bedfellows is quite broad.  Where money and power are concerned, the church has never shown much morality.",0.5,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains hateful statements about religious groups and expresses a negative opinion about the Catholic Church.""
+}",TOXIC,hate,0.9,The text contains hateful statements about religious groups and expresses a negative opinion about the Catholic Church.,True,,False,4530.133962631226,57,12.582409365857437
+11,"The good news,"" he said at one point, ""is that the old Republican, brain-dead consensus collapsed — and it's amazing that it took this one absurd, hideous human being to do it,"" referring to now-President Trump.
+
+Only to replaced by another brain-dead consensus.",0.6000000238418579,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""insult"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text contains insults and derogatory language towards a specific person.""
+}",TOXIC,insult,0.95,The text contains insults and derogatory language towards a specific person.,True,,False,4122.709035873413,53,12.855624672715166
+12,Umm.. please don't be a bigot when speaking about the citizenry of another nation.,0.5,TOXIC,"{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a request for respectful communication and does not contain harmful language.""
+}",NON_TOXIC,none,0.95,The text is a request for respectful communication and does not contain harmful language.,True,Schema repaired,True,5100.674390792847,55,10.782887866608325
+13,Germany should re-introduce the Mark-leave the EU and form a free trade zone with like minded countries like the UK. Greece and Italy--bye and do drop by for snapps and crumpets sometime--France if they reform can bring some wine to the party. Russia - a loser again.,0.5,TOXIC,"{
+  ""label"": ""OTHER"",
+  ""category"": ""none"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains political commentary and potentially offensive language, but lacks clear toxicity.""
+}",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: OTHER,False,4227.585315704346,54,12.773249022179277
+14,"1/2
+re christological cosmology: I am intrigued by the ideas you associate with George van Kooten (previously unknown to me). Do you have a reference or two that would take me to his list of scriptural texts associated with Greek cosmology and his reading of same?
+
+Re Gould's two magisteria: I disagree, based above all on my acceptance of the epistemology of Bernard Lonergan (""Insight: A study of human understanding"") and his ""Method in Theology."" 
+
+From that perspective, I see both science and theology as generated by the one and same functioning of the human mind; with science being the method for dealing with ""the data of sense"" versus ""the data of consciousness."" Again from that perspective, I see ""the magisteria of science"" as 100% normative for religion, in the sense that the products of science trump absolutely any contrary suggestions that might arise from theology, but theology goes beyond science in as much it is not self-limited to the data of sense.",0.0,NON_TOXIC,"{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a discussion of theological and scientific perspectives, not containing any harmful language.""
+}",NON_TOXIC,none,0.95,"The text is a discussion of theological and scientific perspectives, not containing any harmful language.",True,Schema repaired,True,4549.8528480529785,57,12.527877692658137
+15,"Canada is more an identity than a country. These events prove it. We love the idea of a military but won't pay for it. We love the idea of the north, but won't pay for it.  If Ca;nada existed anywhere except right beside the US, it wouldn't exist at all. We ride freely pretending we're a big grown up country, but really, we live in America's attic.",0.0,NON_TOXIC,"{
+  ""label"": ""other"",
+  ""category"": ""none"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text expresses a political opinion and contains strong nationalistic sentiment, but not explicitly harmful.""
+}",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: other,False,5365.895509719849,57,10.622644421001025
+16,"Calling Trump a ""businessman"" is too broad a stroke.      There are all sorts of ""businessman"" the majority of whom are NOT dishonest, pathological liars like Trump.    How many times has Trump gone bankrupt?     How many suppliers has he stiffed in his years as a ""businessman"" while he sheltered himself behind bankruptcy laws?
+
+Trump has never run a public company where he is answerable to shareholders.    He's never held public office.   In other words, he's grown up and lived in a world where he's never had to explain anything and where his Dad's money and influence helped hide all of his failures and faults.    It's becoming more obvious that what Trump is, is bat-s**t crazy, and not in a good way.",0.699999988079071,TOXIC,"{
+  ""label"": ""NON_TOXIC"",
+  ""category"": ""other"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a political commentary with strong opinions, but not explicitly toxic or harmful.""
+}",NON_TOXIC,none,0.95,"The text is a political commentary with strong opinions, but not explicitly toxic or harmful.",True,,False,4996.423721313477,59,11.808446058792205
+17,You ask that as if there were some sort of significant difference ....,0.0,NON_TOXIC,"```json
+{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a statement and does not contain any harmful language.""
+}
+```",NON_TOXIC,none,0.95,The text is a statement and does not contain any harmful language.,True,Schema repaired,True,4984.856605529785,58,11.635239404010063
+18,"wow you live in a delusional world, europe is in real trouble with out of control debt, immigration violence  etc, etc,,, the socialism disease is now doing its dirty work",0.5,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains derogatory statements about Europe and socialism, and expresses negative opinions about immigration.""
+}",TOXIC,hate,0.9,"The text contains derogatory statements about Europe and socialism, and expresses negative opinions about immigration.",True,,False,13801.353693008423,56,4.057572992160098
+19,"Most police are professionals and do a great job.
+
+This proposal is another tool for jerks who go into law enforcement for all the wrong reasons.
+
+Another Carte Blanche for them to use to harass anyone they want to, whenever they want to.",0.6000000238418579,TOXIC,"{
+  ""label"": ""other"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text expresses a mixed opinion on police and law enforcement, but does not contain explicit toxicity.""
+}",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: other,False,5784.409284591675,59,10.19983149483601
+20,"So getting away with sexual assault qualifies as legal behavior worthy of the president. I guess in this country wealth and race are more important than the law. When did it become legal to grab women by their vaginas without permission? When did it become legal to hire illegal labor? I thought housing discrimination was made illegal in the 1960's. Trump is guilty of all those crimes.  Jerry, you are very selective with your law and order attitude. It looks like you don't mind rich white men getting away with crimes. You are living proof that white male privilege is real. In this country, your quality of justice depends on your race, gender, sexual orientation, class, and wealth or lack there of. Justice is not blind here.",0.699999988079071,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text contains accusations of sexual assault, illegal labor practices, and housing discrimination, and expresses strong negative opinions about race, gender, and wealth.""
+}",TOXIC,hate,0.95,"The text contains accusations of sexual assault, illegal labor practices, and housing discrimination, and expresses strong negative opinions about race, gender, and wealth.",True,,False,5476.7351150512695,69,12.5987469816411
+21,"You can't negotiate a deal under threat.  I'd suggest to our government to tell the American's were pleased with the current status of NAFTA and if they want to pull out then do so and maybe yes or maybe no we'll come to the negotiating table but either way it won't be for awhile.  We have other trade deals with the EU and China to complete.  When were done and if the US pulls out we'll then decide if its in our best interest to enter into a new trade deal with the American's.  By the way, who is giving our government advice on how to handle this situation?",0.0,NON_TOXIC,"{
+  ""label"": ""DEFER"",
+  ""category"": ""threat"",
+  ""confidence"": 0.8,
+  ""short_rationale"": ""The text contains a veiled threat of retaliation if the US pulls out of NAFTA.""
+}",DEFER,none,0.8,The text contains a veiled threat of retaliation if the US pulls out of NAFTA.,True,,False,4673.418045043945,56,11.982664392582372
+22,"you have GOT to be kidding.  as stupid as some people are, he could do well, and that's absurd.  stick to overacting buddy, we need seasoned, rational diplomats to govern.",0.7121211886405945,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""insult"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text uses insults and derogatory language towards a person.""
+}",TOXIC,insult,0.9,The text uses insults and derogatory language towards a person.,True,,False,4581.341505050659,51,11.132110527838954
+23,"Where's the ""stupid"" emoticon when you need it?",0.5833333134651184,TOXIC,"{
+  ""label"": ""insult"",
+  ""category"": ""insult"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text uses the word 'stupid' in a derogatory way.""
+}",TOXIC,insult,0.95,The text uses the word 'stupid' in a derogatory way.,True,Schema repaired,True,4276.327610015869,55,12.861502909922258
+24,Congress voted an exception for themselves separate from that bill.,0.0,NON_TOXIC,"```json
+{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is neutral and does not contain any harmful language.""
+}
+```",NON_TOXIC,none,0.95,The text is neutral and does not contain any harmful language.,True,Schema repaired,True,4712.332248687744,57,12.09592129584516
+25,"Another case of idiots who  believed in peaceful ,misunderstood  jihadists and traveled to dangerous areas to prove it . They will end up like Giesbrecht.   I will be blunt.  If you make  horribly stupid choices  do not expect the world to bail you out. You are on your own there.",0.8428571224212646,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains derogatory language and threats towards a specific group of people.""
+}",TOXIC,hate,0.9,The text contains derogatory language and threats towards a specific group of people.,True,,False,4743.23582649231,53,11.173806645661609
+26,CDF stands for Congregation of the DOCTRINE of the Faith,0.0,NON_TOXIC,"```json
+{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a definition and does not contain harmful language.""
+}
+```",NON_TOXIC,none,0.95,The text is a definition and does not contain harmful language.,True,Schema repaired,True,4406.324148178101,57,12.935952527134893
+27,Urban = non-white in your vocabulary.,0.5,TOXIC,"```json
+{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text uses racial slurs and promotes hatred towards a specific group.""
+}
+```",TOXIC,hate,0.95,The text uses racial slurs and promotes hatred towards a specific group.,True,,False,5031.529903411865,59,11.726055719154582
+28,"Until 3rd grade when those same studies show that everyone is equal again. Hawaii can't seem to get money into classrooms as it is, a giant new unionized system, administered by our self-serving, cash-gobbling DOE, to provide free daycare is not going to making our failing schools any better.
+
+And the last thing you tried to sell us as being for your ""children and grandchildren"" was the failing rail mess that will saddle them with an unaffordable gift to developers and construction interests.  You've kinda shot your credibility some time ago.  Sorry.",0.0,NON_TOXIC,"{
+  ""label"": ""DEFER"",
+  ""category"": ""other"",
+  ""confidence"": 0.8,
+  ""short_rationale"": ""The text contains political criticism and personal attacks, but the context is complex and potentially biased.""
+}",DEFER,none,0.8,"The text contains political criticism and personal attacks, but the context is complex and potentially biased.",True,,False,4962.068557739258,58,11.688673649931406
+29,"Uh huh. Nice try, buddy. Tell it to the climate change deniers in the administration of the President for whom you no doubt voted. Now go whine someplace else to try and convince anyone with a brain that it's all the fault of the libs. 
+Ludicrous.",0.5652173757553101,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains insults and threats directed at a specific group of people and promotes a harmful conspiracy theory.""
+}",TOXIC,hate,0.9,The text contains insults and threats directed at a specific group of people and promotes a harmful conspiracy theory.,True,,False,4539.220809936523,59,12.997825501426766
+30,"I remember watching Eco Challenge, the precursor to that bloody awful Survivor, and one year they had to tackle the Atlas Mountains in northern Africa. There was a team of retired Navy Seals. They were eliminated. Got lost. Couldn't read their map.",0.5,TOXIC,"```json
+{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a historical anecdote and does not contain any harmful language.""
+}
+```",NON_TOXIC,none,0.95,The text is a historical anecdote and does not contain any harmful language.,True,Schema repaired,True,5261.409521102905,59,11.213725098447064
+31,"Until you and the rest of the Germanic European White Supremacists walk a mile in their moccasins, you have no ""right"" to disdain them and all of AK Natives as well.  Everything spewing from your fingers and mouth reflect the hate of one lonely, whining, despable excuse for a human.  The only value of your misspent life is the purveying of a false superiority over other human beings reflecting back on your black soul of pure evil.",0.6000000238418579,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text contains numerous racial slurs, threats, and hateful language.""
+}",TOXIC,hate,0.95,"The text contains numerous racial slurs, threats, and hateful language.",True,,False,4274.677276611328,54,12.632532588005686
+32,"Very rough back-of-the-envelop calculation is that he'll collect about $27,000/year in 2017 dollars, adjusted for inflation, started when he turns 65.
+
+He has a bit over 6 years of services with pension accruing at 3 percentage points per year, so roughly 19% of his average salary over the past few years.  Current Senator salary is $147,700/year so the average over the past few years is probably around $143,000.  So $143 * 19% = $27,170/year.",0.0,NON_TOXIC,"{
+  ""label"": ""NON_TOXIC"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a financial calculation and does not contain any harmful language.""
+}",NON_TOXIC,none,0.95,The text is a financial calculation and does not contain any harmful language.,True,,False,4321.454763412476,56,12.958599144464744
+33,Same experience with Lib government here in Ontario. The 'ordinary Joe' almost always gets the short end of the stick.,0.0,NON_TOXIC,"```json
+{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a general statement about political experience and does not contain harmful language.""
+}
+```",NON_TOXIC,none,0.95,The text is a general statement about political experience and does not contain harmful language.,True,Schema repaired,True,5627.194404602051,61,10.840215498883916
+34,"Sure they do.  It is a scam to get you to vote for the biggest idiot in presidential history because he might appoint a pro-life justice.  W appointed 2 justices, both of whom refused to vote with Scalia who wanted to overturn Roe to justify the Partial Birth Abortion Law.  Gorsuch is more likely to vote with them, but if he does not, he will be one vote for the Federalist Society approach.  Roberts was pro-life when he worked for Reagan.  It meant nothing later.  There are 2 anti-Roe votes with Gorsuch and I doubt at this point that he would throw out all of due process/equal protection/privacy law to overturn Roe (which is what would happen).",0.5,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""threat"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains threats and inflammatory language about the potential impact of a Supreme Court nominee.""
+}",TOXIC,threat,0.9,The text contains threats and inflammatory language about the potential impact of a Supreme Court nominee.,True,,False,4388.442277908325,56,12.760792202259848
+35,"If they can't participate in uniform, then PRIDE should not get the funding.  Simple.  I actually agree they should not be part of a parade for the reasons BLM suggests, however, you can't have it both ways.",0.0,NON_TOXIC,"```json
+{
+  ""label"": ""other"",
+  ""category"": ""none"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text expresses a political opinion on a complex issue with multiple perspectives.""
+}
+```",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: other,False,4477.448225021362,58,12.953806964395055
+36,"When the feed from a site is locked, comments can only be made via a direct reply to the author's statement from Disqus.  My comment history is blocked as a matter of course.  As NCR's was secured (and, except for one instance, the only site I post to using this handle), and my comment history blocked, there is no way anyone cold reply unless they had a level of access to the NCR site that is reserved to those hosting Disqus.
+I don't know Jay Edwards except by his posts here.  Is he staff?",0.0,NON_TOXIC,"{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text discusses a technical process and does not contain any harmful language.""
+}",NON_TOXIC,none,0.95,The text discusses a technical process and does not contain any harmful language.,True,Schema repaired,True,5176.506042480469,54,10.431746733579466
+37,"https://thetyee.ca/Opinion/2017/02/14/Christy-Clark-Alternative-Facts/
+
+""Patriotism is the last refuge of a scoundrel.""
+
+- Samuel Johnson",0.3000000119209289,NON_TOXIC,"```json
+{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a quote from a famous author.""
+}
+```",NON_TOXIC,none,0.95,The text is a quote from a famous author.,True,Schema repaired,True,4288.887023925781,55,12.823839773157841
+38,If only he hadn't dropped his drawers for the kiddos.,0.0,NON_TOXIC,"{
+  ""label"": ""insult"",
+  ""category"": ""insult"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text uses vulgar language to insult someone.""
+}",TOXIC,insult,0.95,The text uses vulgar language to insult someone.,True,Schema repaired,True,3967.858076095581,51,12.853282305445914
+39,"Lets get a couple of issue out of the way, I might immigrate there, or I probably stay here and advocate for change to a system were we all prosper even morons like you. Taxes is such a misused and tainted word, it gleams a negative feeling in Americans, the reason is most of our tax money goes to fund wolf wide military empire that benefit cooperate America not you and I. In but is your tax dollars made for better infrastructure and healthcare and education and job training you might feel differently. You see the Nordics see what they get for there dollars so they don't mind, they feel they get value for their money. We could too if we stopped the stupid things like giving money to private companies and cutting education.",0.6000000238418579,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains insults, threats, and derogatory language towards individuals and groups, including 'morons' and 'stupid things.'""
+}",TOXIC,hate,0.9,"The text contains insults, threats, and derogatory language towards individuals and groups, including 'morons' and 'stupid things.'",True,,False,5959.267377853394,64,10.739575176278404
+40,An inspiration in dark times...wish you well!,0.0,NON_TOXIC,"{
+  ""label"": ""NON_TOXIC"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is positive and well-wishing.""
+}",NON_TOXIC,none,0.95,The text is positive and well-wishing.,True,,False,4106.821537017822,52,12.661860159075701
+41,"You're confusing two things.
+
+There is the ""I see no nuns therefore there are no nuns"" problem.
+
+Then there is the shortage project...of why so few women are saying Yes to the religious life. 
+
+One is exocentric, one is egocentric to the person. 
+
+God doesn't need religious brothers and sisters any more when the US Gov't ensures hospital care for all, food banks, soup kitchens, and lay teachers.
+
+Sisters have been ""supplanted"" by these other people and providers.  
+
+It's like who needs unions for work place safety while there is OSHA at the US, state and country levels!!!   Another supplanting.",0.1666666716337204,NON_TOXIC,"{
+  ""label"": ""DEFER"",
+  ""category"": ""other"",
+  ""confidence"": 0.75,
+  ""short_rationale"": ""The text discusses complex social and religious issues, potentially touching on topics like religious life, social welfare, and labor unions. The text is complex and could be interpreted in multiple ways.""
+}",DEFER,none,0.75,"The text discusses complex social and religious issues, potentially touching on topics like religious life, social welfare, and labor unions. The text is complex and could be interpreted in multiple ways.",True,,False,6498.511075973511,77,11.848868009887173
+42,"The death penalty doesn't work and our prisons are failures. Measure 11 has backfired. 1,000 men in one of our smaller prisons and maybe 100 ever get a visit or a phone call in their three to 20 year stay. No actual job training or educational program available, horrible food and inadequate medical care. Out, awaiting them a huge bill, a scarlet ""F"", and no posssibility of employment in anything but the some minimum wage part time job. That was done by voters, not the politicians. I think Salem is a corrupt, incompetent, mess. But those pols aren't the only brainless fools. We are, too.",0.8333333134651184,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text expresses strong negative opinions about the death penalty, prisons, and politicians, using derogatory language and insults.""
+}",TOXIC,hate,0.9,"The text expresses strong negative opinions about the death penalty, prisons, and politicians, using derogatory language and insults.",True,,False,5172.382831573486,61,11.793403927420284
+43,"Don't be fooled:  this domestic embarrassment gets fully beaten by the Tesla family sedan.  0-60 times:
+
+Dodge:  2.33 (verified by nobody, and, get this:  with the SEATS REMOVED - lol).
+Tesla:  2.27  (MotorTrend:   http://bit.ly/2lgGcvu      RoadAndTrack  2.28s  http://bit.ly/2qLmSZu )
+
+Kuniskis' nonsense re  ""rollout"" is a fool-the-gullible/lipstick-a-pig  tactic.   Rollout means ""already rolling"", which of course is NOT a 0-60 time... it is a 2-60?  5-60? 7-60?  I don't know, and neither does he, since it varies with the track/temperature/time of day/weather.  He can pick whatever rollout he wants, the Tesla will still win.",0.5,TOXIC,"{
+  ""label"": ""other"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text discusses car performance and rollout, not harmful language.""
+}",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: other,False,4146.625280380249,52,12.540318086140534
+44,Harper was so desperately hoping to defeat Trudeau Jr. but got his butt kicked big time. The election is now historic in that Trudeau came from third place to form a majority. That is Harper's legacy.,0.699999988079071,TOXIC,"```json
+{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a political commentary with neutral language.""
+}
+```",NON_TOXIC,none,0.95,The text is a political commentary with neutral language.,True,Schema repaired,True,4926.47647857666,55,11.1641657560274
+45,You wish.,0.0,NON_TOXIC,"```json
+{
+  ""label"": ""NON_TOXIC"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a neutral statement.""
+}
+```",NON_TOXIC,none,0.95,The text is a neutral statement.,True,,False,4400.838375091553,54,12.270389275288169
+46,"my Aunty Hannah just got a new green Audi A4 by parttime working online from home. this link_+_+_+_+
+_+_+_+__+_+_+_+_+_+_+_+_+http://www.jobpro22.com",0.0,NON_TOXIC,"```json
+{
+  ""label"": ""other"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text contains a link and a potentially unrelated statement about a car.""
+}
+```",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: other,False,4655.196189880371,59,12.674009342131761
+47,Anyone want to take a guess how long it will take the Globe to inform readers of the nuclear disaster unfolding right now in Washington state?,0.0,NON_TOXIC,"{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a question and does not contain any harmful language.""
+}",NON_TOXIC,none,0.95,The text is a question and does not contain any harmful language.,True,Schema repaired,True,4920.395135879517,53,10.771492641622224
+48,"There was no reference to sexuality. 
+
+Why do you have such trouble with metaphors?",0.0,NON_TOXIC,"{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text does not contain any offensive language or content.""
+}",NON_TOXIC,none,0.95,The text does not contain any offensive language or content.,True,Schema repaired,True,3981.708288192749,51,12.80857268003134
+49,"The best rent reform is work, a family wage job.  To have one,  you can't be on drugs,  you have to show up every day,  you have to do what the job requires,  you have to respect authority and fellow workers,  you have to be clean,  alert,  of the mind to be the best you can be.  Rent controls won't help any of those requirements.  In fact,  the more that government does for you,  the less you are inclined to do a thing for yourself.  
+The social contract is a two way street.  I see the sec 8 four plex on the next block,  the dumpster overflowing,  the lawn worn away by its use a motorcycle repair spot.  4 low rent apartments,  and 11 cars parked on their lot and in the street.  Last evening,  two little girls not more than first grade were riffling through the college prof lady  recycle bin,  pulling out papers and stuff.   The prof's weekly  housekeeper ran them off.  The Escalade with the Nevada plates finally has Oregon license plates,  after  4 years.  It's a dependency lifestyle.",0.0,NON_TOXIC,"{
+  ""label"": ""other"",
+  ""category"": ""none"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text discusses social commentary and housing, but does not contain explicit toxicity.""
+}",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: other,False,4297.460556030273,54,12.565560357319914
+50,"The next time some academics tell you how important diversity is, ask how many conservatives there are in the CRC's.",0.0,NON_TOXIC,"{
+  ""label"": ""hate"",
+  ""category"": ""threat"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text implies a threat to the CRC's by suggesting a connection between diversity and the number of conservatives.""
+}",TOXIC,hate,0.9,The text implies a threat to the CRC's by suggesting a connection between diversity and the number of conservatives.,True,Schema repaired,True,5638.202667236328,61,10.819050608888507
+51,"Everyone is welcome.  Leave the guns, badges and carding at home and come celebrate with your employer!",0.0,NON_TOXIC,"{
+  ""label"": ""NON_TOXIC"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is welcoming and does not contain any harmful language.""
+}",NON_TOXIC,none,0.95,The text is welcoming and does not contain any harmful language.,True,,False,4178.102016448975,54,12.92452883807163
+52,"Obstruction, collusion and stupidity!  Lock him up! Lock him up!  Too bad he wasn't honest or smarter, he wouldn't have made all his supporters look like fools.",0.7647058963775635,TOXIC,"```json
+{
+  ""label"": ""TOXIC"",
+  ""category"": ""threat"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text contains threats of imprisonment and insults the supporters of the person being referred to.""
+}
+```",TOXIC,threat,0.95,The text contains threats of imprisonment and insults the supporters of the person being referred to.,True,,False,4837.051868438721,62,12.817724863473925
+53,"Weaver has had the advantage of weakening, Horgan-led (for the last 3 years), New Dinosaur Party. Andy's biggest advantage is that he has been able to pick & choose which direction to take on various issues, and not beholden by an obsolete party executive from the 1990s, like those that rule NDP members like psycho-pathicical shop stewards.
+
+This election is simple a stepping stone for the Greens. Weaver will now be joined by a few members and will need to consolidate that momentum over the next four years and attract more talented candidates. This election, the Greens are usung a lot of teachers to fill in the ballots. That's baggage moving forward.
+
+Remember, it's not one way up; Greens have been around for a third of a century in BC and have risen and declined.
+
+If they Greens are really savvy, they will also continue the momentum they have with the media, as 'effective' opposition, and maybe attract a couple of NDP candidates who are smart enough to abandon that s(t)inking ship.",0.0,NON_TOXIC,"{
+  ""label"": ""other"",
+  ""category"": ""none"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text discusses political strategy and party dynamics, but does not contain explicit toxicity.""
+}",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: other,False,5322.522401809692,55,10.333446409037121
+54,"Trump arming terrorists.
+
+That's what traitors and wanna-be fascists do.",0.6666666865348816,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""threat"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text accuses individuals of supporting terrorism and makes a threat against them.""
+}",TOXIC,threat,0.95,The text accuses individuals of supporting terrorism and makes a threat against them.,True,,False,4111.336469650269,54,13.134415146662398
+55,"Do you have a bottle of Lubiderm handy? 
+
+The way you wrote that comment makes me think you kick your boyfriend out when Maddow comes on, so he doesn't know how much excitement you get from fantasizing over Trump's demise .
+
+Back in the realm of reality, if Fast & Furious didn't bring Obungo down.....chances are that a Liberal's dream ""stronk independent woman"" AG wont bring Trump down either
+
+This is just Yate's career gasping for relavency",0.1666666716337204,NON_TOXIC,"{
+  ""label"": ""other"",
+  ""category"": ""none"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains a mix of personal opinions and potentially offensive language, but lacks clear toxicity.""
+}",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: other,False,4361.443281173706,57,13.069068270597974
+56,"The Human Rights Tribunal/Commission is as out of touch as the UN and doing way more damage than good.  Just another RIDICULOUS ruling.  And the Liberals fall in line just like they do with any UN demands............what a messed up world we live in.   And when it comes to women Judges, most of the again ridiculous rulings seem to be coming from them, no common sense, heart over brains.  And I am a woman.   I feel very sad for young men who do not fit the quotas.    It is reverse discrimination, being carried out by our government.  Whatever happened to Canadians being treated equal?",0.5,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains numerous insults, threats, and discriminatory statements against the UN, Liberals, women judges, and Canadian government.""
+}",TOXIC,hate,0.9,"The text contains numerous insults, threats, and discriminatory statements against the UN, Liberals, women judges, and Canadian government.",True,,False,5749.272108078003,63,10.957908899716536
+57,"Only losers are socialist...
+What's your claim to fame??",0.6969696879386902,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""insult"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text uses derogatory language to label a political ideology and makes a personal attack.""
+}",TOXIC,insult,0.9,The text uses derogatory language to label a political ideology and makes a personal attack.,True,,False,4320.788383483887,56,12.960597703432711
+58,That's what the arrogant spandex crowd says.,0.5,TOXIC,"```json
+{
+  ""label"": ""other"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a general statement about a group of people.""
+}
+```",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: other,False,4589.102983474731,57,12.420728017056028
+59,Nurnie/Saullie is sport!,0.0,NON_TOXIC,"{
+  ""label"": ""NON_TOXIC"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a positive statement about a person.""
+}",NON_TOXIC,none,0.95,The text is a positive statement about a person.,True,,False,4823.035717010498,52,10.7815913153203
+60,"This is why people on hillside sucks. Not concern about a neighbor who was killed, but how bad the property looks. They all will be trying to buy his property cheap.",0.699999988079071,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text expresses negative opinions about people living on a hillside and uses derogatory language.""
+}",TOXIC,hate,0.9,The text expresses negative opinions about people living on a hillside and uses derogatory language.,True,,False,4286.98205947876,55,12.829538177887143
+61,The original construction of the Charter with Section 33 was a nicely balanced approach giving both the Courts and Parliament (and Legislatures) the authority to interpret individual rights. Courts interpret rights based on the law but it is the legislatures that must truly balance individual rights with broader public policy. The fact that the Federal Parliament has never used Section 33 over the past 35 years is the real problem. Liberal governments have consistently abdicated their responsibility on a number of files by not using Parliament's override authority. Conservative governments have been gutless too.  There is pent up demand for our elected leaders to begin assuming their responsibility and entering the conversation about rights and freedom. I for one am delighted to see Conservative leaders broaching the idea of using Section 33. It is long overdue.,0.0,NON_TOXIC,"{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text discusses the history and application of a legal provision, but does not contain any harmful language.""
+}",NON_TOXIC,none,0.95,"The text discusses the history and application of a legal provision, but does not contain any harmful language.",True,Schema repaired,True,5000.274419784546,60,11.99934142866209
+62,"Rep Johnston, please fix the broken oil and gas system that prices and BLOCKS Alaskans and smaller competitors out of business and makes Alaska the worst place in the nation to profit from by finding and selling oil, even ConocoPhillips lost money and they seem to own almost everything.
+The low price of oil is not the real problem in Alaska oil business, it is the poor management of state oil & gas lands based on my 30 years in the oil business I have seen them try to pick winners and losers and they have no crystal ball but still they play God and violate the constitution and the oil and gas laws everyday. The people have to stop them from Blocking smaller oil competitors for the majors. The facts are clear they must be looked at as they give the people of Alaska's oil wealth away!
+Will someone wake the people of Alaska and change the laws so Alaskans can drill and profit
+Put the people first and Alaska will prosper and get rid of those that sell the people out. Lets drill baby drill",0.0,NON_TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""threat"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains threats to 'block' and 'put the people first' and 'get rid of those that sell the people out' which are threats to individuals.""
+}",TOXIC,threat,0.9,The text contains threats to 'block' and 'put the people first' and 'get rid of those that sell the people out' which are threats to individuals.,True,,False,6231.092691421509,72,11.5549556980791
+63,"And not one Representative would accept their version "" health care"" as their own.",0.0,NON_TOXIC,"```json
+{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a statement about political disagreement and does not contain any harmful language.""
+}
+```",NON_TOXIC,none,0.95,The text is a statement about political disagreement and does not contain any harmful language.,True,Schema repaired,True,4677.051544189453,61,13.042404904813056
+64,"Republicans have done nothing except reinforce the fact that they are the most incompetent and the biggest hypocrites on the planet, and their followers continue to be the most stupid and most suicidal Americans ever. It's the Peter Principle in action.  
+I've said it before and I'll say it again: Let them continue on their way. 
+No more bail outs or fixing the problems they inevitably create for themselves. I have recently begun giving serious thought to the idea of seceding. I do think it's time for rational consideration of the idea. The right wing nuts can then live in as oppressive a society as their tiny, unused little hearts desire and the rest of us can finally be free of them and the chaos their idiocy causes.",0.6351351141929626,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains strong insults, threats, and hateful language towards a political group.""
+}",TOXIC,hate,0.9,"The text contains strong insults, threats, and hateful language towards a political group.",True,,False,5220.45636177063,55,10.53547739672046
+65,Who does the most dangerous job?,0.0,NON_TOXIC,"{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a neutral question.""
+}",NON_TOXIC,none,0.95,The text is a neutral question.,True,Schema repaired,True,3692.882299423218,47,12.727186026844347
+66,"46% of the electorate didn't vote, so neither Trump nor Hillary got the majority of votes. Most people looked at the choice between the two parties & decided it was better to just stay home. The corporate-controlled MSM wouldn't allow any third parties to participate in the debates unless they got 10% of the previous election's votes. Then the MSM perpetuates the fear tactic that a vote for a third party is a vote for your opponent, perpetuating the faux two-party system, when both D's & R's serve the same of similar corporate massahs. 
+We need rank-choice voting so you can vote your hopes, not your fears. If the candidate you want first, and they don't win, your vote goes to your second choice, etc. People knew both of their allowed choices were corrupt, so why bother voting? Sick. Bad. Very Bad. (As our P***y-Grabber-in-Chief would say.)
+Some say we get the leaders we deserve. 'Sad commentary on America.",0.0,NON_TOXIC,"{
+  ""label"": ""DEFER"",
+  ""category"": ""other"",
+  ""confidence"": 0.75,
+  ""short_rationale"": ""The text discusses political opinions and criticisms of the two-party system, potentially containing some strong language, but lacks clear toxicity.""
+}",DEFER,none,0.75,"The text discusses political opinions and criticisms of the two-party system, potentially containing some strong language, but lacks clear toxicity.",True,,False,5186.908721923828,66,12.724341903499036
+67,"Can we have a class action suit against the Russian Candidate for market losses due to his stupidity and big mouth.
+
+Oh, I forgot. Stupidity is not an offense and a big mouth not a crime when you are Prezzy.
+
+Caveat Emptor.",0.7714285850524902,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""insult"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains insults and threats against a political figure.""
+}",TOXIC,insult,0.9,The text contains insults and threats against a political figure.,True,,False,4942.273139953613,51,10.319138290377587
+68,"Noted regarding the source.  What about the content?  
+You're not a millennial, are you?",0.0,NON_TOXIC,"{
+  ""label"": ""insult"",
+  ""category"": ""insult"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text is an insult based on age.""
+}",TOXIC,insult,0.9,The text is an insult based on age.,True,Schema repaired,True,3891.911268234253,50,12.847158260800954
+69,I am pleased and surprised (mostly surprised) to see the G&M provide this no spin summary of the platforms.  Too bad it had to wait until May 6 to be published..,0.0,NON_TOXIC,"{
+  ""label"": ""NON_TOXIC"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text expresses a neutral sentiment and does not contain any harmful language.""
+}",NON_TOXIC,none,0.95,The text expresses a neutral sentiment and does not contain any harmful language.,True,,False,4308.866024017334,56,12.996458856659666
+70,"It is so often embarrassing to be Canadian, a nation of deb slaves who accept our grotesque, horrendous housing bubble as a good thing. A nation of obedient serfs snorfling in the trough of lifetime debt. How sad, how pathetic.",0.7250000238418579,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text contains derogatory and insulting language towards Canadians and uses derogatory terms.""
+}",TOXIC,hate,0.95,The text contains derogatory and insulting language towards Canadians and uses derogatory terms.,True,,False,5150.647401809692,54,10.484118944159713
+71,"Apparently  the emails state he buys meth from gay Islamic party boys, who are transphobic, hate blacks, puppies, and illegally voted for Hillary !!!",0.6184210777282715,TOXIC,"```json
+{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains multiple hateful slurs and promotes discriminatory views.""
+}
+```",TOXIC,hate,0.9,The text contains multiple hateful slurs and promotes discriminatory views.,True,,False,4359.87663269043,56,12.844400132818217
+72,"This whole thing is stupid, but even worse, it's petty. Canada has far bigger issues to worry about related to improving on science (especially given this government's ostensible interest in innovation and results-based management).
+
+I guess this is what you get when you appoint a pseudoscience quack as Science Minister.",0.7424242496490479,TOXIC,"{
+  ""label"": ""OTHER"",
+  ""category"": ""none"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text expresses opinions and criticisms, but not direct insults or threats.""
+}",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: OTHER,False,4222.681999206543,53,12.551264814627029
+73,Stupidity is a defence?,0.662162184715271,TOXIC,"{
+  ""label"": ""other"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a question and does not contain harmful language.""
+}",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: other,False,4990.3883934021,52,10.420030647063529
+74,"Trudeau pisses away $30,000 of taxpayer money on a Broadway musical to entertain his millionaire and billionaire friends in NYC.
+
+""The Trudeau government claims to have paid about $50 a ticket, well below the going price for the show. Ahmad notes the tickets were at ""a significant discount."" In mid-April, CBC reported that the average price of a ticket was $127 US.""
+
+I call BS on that, I will bet you a dollar that the production company will apply for, and receive a tax credit for the difference between the sale price and retail value of the tickets.
+
+In the mean time, shut up and pay your carbon taxes, morons.",1.0,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""insult"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text uses derogatory language to insult Trudeau and his supporters.""
+}",TOXIC,insult,0.9,The text uses derogatory language to insult Trudeau and his supporters.,True,,False,4101.537227630615,52,12.678173356490408
+75,"Quit trolling, troll.
+
+Get your own account.",0.699999988079071,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""insult"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text uses insults and commands to address a user.""
+}",TOXIC,insult,0.95,The text uses insults and commands to address a user.,True,,False,4002.0434856414795,52,12.993362062797532
+76,"The Liberals were the ones who started the Canadian investment in the F-35. I believe the defense departments intent all along was to buy the F-35. Unfortunately the long delays and the increased cost made the project controversial. 
+
+The Liberals made a stupid campaign promise not to buy the F-35 and at the same time wanted a competition which the F-35 probably would have won. Ackward.
+
+The F-18 purchase is for political expediency and saving face.",0.5,TOXIC,"{
+  ""label"": ""other"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text discusses political issues and military procurement, but does not contain explicit toxicity.""
+}",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: other,False,5271.897792816162,56,10.622360713500424
+77,"most hope they reward him with a nice set of bars, and I dont mean handlebars",0.2000000029802322,NON_TOXIC,"{
+  ""label"": ""other"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a casual statement with no clear indication of toxicity.""
+}",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: other,False,4104.903936386108,53,12.911386191088397
+78,"As soon as a government interferes in the process, the insurance claims are no longer valid. That is why governments wait awhile to see how serious the storm is---they do not want private insurance companies to throw in the towel.",0.0,NON_TOXIC,"```json
+{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is a statement about insurance and government involvement, not harmful or offensive.""
+}
+```",NON_TOXIC,none,0.95,"The text is a statement about insurance and government involvement, not harmful or offensive.",True,Schema repaired,True,4694.286108016968,61,12.994521125549493
+79,"Yes. You have consistently argued that wages should be set by unregulated laws of supply and demand. The same way you believe *all* prices should be set. So you clearly do not think that human beings are an exception to the rules you think apply to say iron ore (rules you think are universal - as if any rules could ever be). 
+If you thought they were different or special in any way, you would not assume the same system must automatically be the best for them.
+There is no other logical conclusion. You may not even really believe humans are resources to be consumed -but as long as you support policies that treat them that way, it makes no difference what you claim, or even think, you believe.",0.0,NON_TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text attacks the user's beliefs and uses derogatory language.""
+}",TOXIC,hate,0.9,The text attacks the user's beliefs and uses derogatory language.,True,,False,5071.921348571777,52,10.25252491635007
+80,That is an AWESOME IDEA,0.1666666716337204,NON_TOXIC,"{
+  ""label"": ""NON_TOXIC"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is positive and does not contain harmful language.""
+}",NON_TOXIC,none,0.95,The text is positive and does not contain harmful language.,True,,False,4123.154401779175,53,12.854236061868084
+81,I was banned? When? That is news to me.,0.0,NON_TOXIC,"```json
+{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text expresses surprise, but does not contain any harmful language or threats.""
+}
+```",NON_TOXIC,none,0.95,"The text expresses surprise, but does not contain any harmful language or threats.",True,Schema repaired,True,4673.983097076416,60,12.837016898398733
+82,"Firing of Comey was long overdue.  He botched the Hilary email investigation  and let her off the hook by acknowledging that  while she did violate the law and did violate the security protocols of the US State Dept and was 
+extremely negligent in the handling of secret and confidential documents, memos, emails etc and  practically indicted her in his description of what she had done wrong nonetheless  at the very end of his litany of her wrong doing
+he determined that there was no case for prosecution as Hillary had no criminal intent.  Huh?  Excuse me!!  Under federal law/statute, criminal intent is not a required  to be charged for violating the law.
+Neither is ignorance of the law for which Hillary cannot claim based on her long years of  either working for or being a part of the Federal government.
+Comey did the same thing that  Supreme Court Chief, John Roberts did when he did all kinds of legal acrobatics to  declare Obama Care constitutional.",0.1666666716337204,NON_TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""threat"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains threats and accusations against Hillary Clinton and John Roberts, including claims of criminal intent and legal manipulation.""
+}",TOXIC,threat,0.9,"The text contains threats and accusations against Hillary Clinton and John Roberts, including claims of criminal intent and legal manipulation.",True,,False,5746.246576309204,61,10.615625206807625
+83,"You are absolutely correct.  That's why whiteys have narrow nostrils, breathing cold air. Blue eyes developed when the humanoid had to keep his clothes on, from the cold, and only the face showed.  The vitamin D cannot get through brown eyes.  I wasn't making a point, just stateing facts.  I'm sorry I'm proud of my race, we're not perfect, and neither am I. But w/ black pride running wild, La Raza celebrating Mexico after illegally immigrating, and Asians getting good educations and good jobs, I thought I might dare say something positive about my race. BUT, that didn't float, don't ever say something positive about the white race, publicly.  We're BAD!!!!",0.5,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text contains racist and hateful statements about different racial groups.""
+}",TOXIC,hate,0.95,The text contains racist and hateful statements about different racial groups.,True,,False,4130.728721618652,52,12.588577828374909
+84,KKKONie:  your comments are truth deficient.,0.2000000029802322,NON_TOXIC,"```json
+{
+  ""label"": ""TOXIC"",
+  ""category"": ""insult"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text uses derogatory language to describe the user's comments.""
+}
+```",TOXIC,insult,0.95,The text uses derogatory language to describe the user's comments.,True,,False,4758.365869522095,59,12.399214692149272
+85,"Endorsing a party that has created 45% of our provincial debt in 16 years, left thousands upon thousands homeless, has the worse child poverty record in the country, and has created the greatest discrepancy between the cost of living and affordability in the country!
+I thought you folks at the Globe and Mail were supposed to be the guardians of fiscal responsibility. Clearly you are nothing short of shills for corporate governance.
+Shame.",0.5,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains strong negative statements about a political party and criticizes the Globe and Mail, using derogatory language and accusations of bias.""
+}",TOXIC,hate,0.9,"The text contains strong negative statements about a political party and criticizes the Globe and Mail, using derogatory language and accusations of bias.",True,,False,5813.013553619385,65,11.18180774918867
+86,The Prime Minister has  become one of those ventriloquist mannequins sitting on Gerald Butts​ lap parotting everything that comes out of Butts​ mouth.  It's what you do when your policies are useless your performance to date abysmal and the party's future bleak.,0.5,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""insult"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text uses derogatory language to describe the Prime Minister and their policies.""
+}",TOXIC,insult,0.9,The text uses derogatory language to describe the Prime Minister and their policies.,True,,False,4192.286968231201,54,12.88079761934416
+87,"Voris is one of those misguided Catholics who believes all other Christian sects are in error and pine for a Pope like Pius IX who maintains that ”Error has no rights.” Triumphalism, pure, simple and wrong. He will line up with any authoritarian who projects such certainly, even if that person is an idiot like Pius or Trump. It is no wonder they attack reasonable voices. They don’t want debate, they want certainty. Sadly, they get noticed for their shock value while reasonable voices from the left, say The Christian Left show on Blog Talk Radio, get no shout out from fellow lefties like MSW or media like The Atlantic.",0.5,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains derogatory language and attacks religious groups and individuals, including using derogatory terms and making false comparisons.""
+}",TOXIC,hate,0.9,"The text contains derogatory language and attacks religious groups and individuals, including using derogatory terms and making false comparisons.",True,,False,5204.690456390381,60,11.528063100531039
+88,"So, the stock gets depressed. Bombardier cash flow decreases .Company is in trouble-again. Bombardier yells ''Help!'' Feds give them more money - can't see the company fail, doncha know. Bombardier decides ( well, The Family decides) that the raises will go through without delay, or stalls until the stink goes away. Hilarity ensues. Rinse and repeat.",0.1666666716337204,NON_TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""threat"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains threats and negative implications about the company's financial situation and the potential for failure.""
+}",TOXIC,threat,0.9,The text contains threats and negative implications about the company's financial situation and the potential for failure.,True,,False,4850.165128707886,59,12.164534285808527
+89,"what Emily explained I'm alarmed that any body able to profit $4498 in one 
+month on the internet. you can look here<<<<<------------>>>>>  http://www.jobpro22.com",0.0,NON_TOXIC,"```json
+{
+  ""label"": ""other"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text contains a potentially suspicious link and a statement that could be interpreted as alarmist, but lacks clear toxicity.""
+}
+```",DEFER,none,0.0,Invalid or ambiguous label; deferred for safety.,False,Invalid label: other,False,5168.049335479736,68,13.15776912831807
+90,"No, they only do that when ordinary working folks are being screwed.
+
+Next up, in June is another election- for the National Assembly.",0.0,NON_TOXIC,"{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is neutral and does not contain any harmful language or content.""
+}",NON_TOXIC,none,0.95,The text is neutral and does not contain any harmful language or content.,True,Schema repaired,True,5145.7109451293945,54,10.49417671840137
+91,"So the idea that police are having sex with so workers is offensive to the police? Well, the idea that can't be trusted to drive the speed limit is offensive to me. What a bunch of horse manure. 
+We're one of the last states - naturally - to allow cops to have sexual contact with six workers. Why do we even make that illegal?  Supposedly there aren't enough cops, yet we have enough to waste time trying to arrest prostitutes. This state just keeps getting worse and worse.",0.5375000238418579,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains offensive and derogatory language towards police officers and uses derogatory terms.""
+}",TOXIC,hate,0.9,The text contains offensive and derogatory language towards police officers and uses derogatory terms.,True,,False,4313.652515411377,54,12.518393590367864
+92,"These workers got screwed and Local 5 helped straighten this out. This situation is an excellent example of why all workers need a union of some sort. Without a union, as a single worker, you have very few protections. It is very discouraging to see that Hilton, a very large company, should allow such shabby treatment of its workers. This is the kind of cruelty that corporate ownership can bring to a company, and it illustrates the situation we are in at the level of our nation's highest Executive branch. Corruption, greed, permeate the highest level of our national government. Sickening.",0.6000000238418579,TOXIC,"{
+  ""label"": ""none"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text discusses worker rights and corporate practices, but does not contain explicit insults or threats.""
+}",NON_TOXIC,none,0.95,"The text discusses worker rights and corporate practices, but does not contain explicit insults or threats.",True,Schema repaired,True,4576.247453689575,58,12.674139802741175
+93,"Trump's threats are beyond the pale. If there's something in their talks that's in the public interest to know, it should be disclosed. Not used as a bargaining chip in a tweet. What a disgusting, loathsome individual. No respect for this man. None.",0.5254237055778503,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""hate"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text contains strong insults and expresses strong negative opinions about a public figure.""
+}",TOXIC,hate,0.95,The text contains strong insults and expresses strong negative opinions about a public figure.,True,,False,5207.203388214111,55,10.562291483464232
+94,"Didn't see a credible reference link to back up your claim. Put up or shut up.
+
+Oh wait. You were talking about what you did. Then changing it to ""Fake News."" 
+
+Sad. What a rookie poster does.",0.5,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""threat"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text contains threats to shut up and implies the user is a 'rookie poster' and 'sad' for their actions.""
+}",TOXIC,threat,0.9,The text contains threats to shut up and implies the user is a 'rookie poster' and 'sad' for their actions.,True,,False,5059.18025970459,65,12.8479312187614
+95,"""...the money that will be left when the baby boomers start dying?""
+
+And what money would that be, dsds?  
+And when will boomers start dying?  Likely, a lot of them will die next-to-destitute.  It's not that they haven't saved or paid off debt before retirement (although that may be true as well)--it's just that they'll outlive the bucks their kids think are coming to them.  Boomers will ""...just...keep...on...going...and...going...and..."" while the money will have disappeared long ago.",0.0,NON_TOXIC,"{
+  ""label"": ""DEFER"",
+  ""category"": ""hate"",
+  ""confidence"": 0.55,
+  ""short_rationale"": ""The text expresses negative sentiment towards a demographic group (baby boomers) and uses potentially harmful generalizations about their financial situation.""
+}",DEFER,none,0.55,The text expresses negative sentiment towards a demographic group (baby boomers) and uses potentially harmful generalizations about their financial situation.,True,,False,5330.4603099823,64,12.006467786683983
+96,Those aren't even real scandals.,0.0,NON_TOXIC,"{
+  ""label"": ""NON_TOXIC"",
+  ""category"": ""none"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text is neutral and does not contain harmful language.""
+}",NON_TOXIC,none,0.95,The text is neutral and does not contain harmful language.,True,,False,4604.289531707764,53,11.511005038890751
+97,"You need to quit watching the Mel Gibson movie ""Conspiracy Theory"" every day, loosen your tinfoil hat.
+
+Sad day when you start believing fake news, do not question it.",0.1666666716337204,NON_TOXIC,"```json
+{
+  ""label"": ""TOXIC"",
+  ""category"": ""threat"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text threatens to stop someone from watching a movie and uses derogatory language about conspiracy theories.""
+}
+```",TOXIC,threat,0.9,The text threatens to stop someone from watching a movie and uses derogatory language about conspiracy theories.,True,,False,4852.137327194214,62,12.77787412415468
+98,Eastman is a punk kid and need to take his trash Back to where ever the heck he came from! Vote this nut out!,0.7272727489471436,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""threat"",
+  ""confidence"": 0.95,
+  ""short_rationale"": ""The text contains threats of violence and insults.""
+}",TOXIC,threat,0.95,The text contains threats of violence and insults.,True,,False,4218.069076538086,49,11.61668979594236
+99,"Yes, how about abiding by the constitution and not how you ""feel"".  We'll have to wait for the Supreme Court to overturn these losers.  Now we are going to need a law that you have to follow the law.  Ridiculous, this is getting old.",0.6000000238418579,TOXIC,"{
+  ""label"": ""TOXIC"",
+  ""category"": ""threat"",
+  ""confidence"": 0.9,
+  ""short_rationale"": ""The text expresses a desire for the Supreme Court to overturn the constitution and implies that the speaker believes the law should be followed regardless of personal feelings.""
+}",TOXIC,threat,0.9,The text expresses a desire for the Supreme Court to overturn the constitution and implies that the speaker believes the law should be followed regardless of personal feelings.,True,,False,5752.812385559082,68,11.820305520599987
