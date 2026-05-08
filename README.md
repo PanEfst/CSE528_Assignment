@@ -320,6 +320,8 @@ The implementation reports:
 
 ├── README.md
 
+├── requirements.txt
+
 ├── notebooks/
 
 │   └── Final\_01\_setup\_and\_dataset.ipynb
@@ -364,6 +366,11 @@ Some folders and files are generated automatically after running the notebook.
 
 \---
 
+**Installation**
+
+This project was developed and tested mainly in Google Colab with a T4 GPU.
+
+For a local environment, install the required Python packages with: pip install -r requirements.txt
 
 
 **How to Run**
