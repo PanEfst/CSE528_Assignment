@@ -1,0 +1,10 @@
+bitsandbytes>=0.46.1
+transformers
+accelerate
+sentencepiece
+datasets
+pandas==2.2.2
+scikit-learn
+matplotlib
+huggingface_hub
+torch
