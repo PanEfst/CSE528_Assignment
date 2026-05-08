@@ -588,7 +588,7 @@ Running locally is possible only if the machine has a compatible CUDA GPU and th
 
 
 
-The final report should be placed under report/
+The final report is placed under report/
 
 
 
